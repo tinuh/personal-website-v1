@@ -3,6 +3,28 @@
     text-align: center;
 }
 
+.sub-heading{
+    color: #ffffff;
+}
+
 .body{
     background-color: #03827b;
+    margin-top: 67.5px;
+}
+
+.competition{
+    color: #ffffff;
+}
+
+.competition-link{
+    color: #871300;
+}
+
+.competition-link:hover{
+    color: #ed594e;
+}
+
+.competition-div{
+    margin-left: 2%;
+    margin-right: 2%;
 }
