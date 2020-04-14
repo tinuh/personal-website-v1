@@ -1,10 +1,10 @@
-window.document.getElementById("Success alert").style.display = "none";
+window.document.getElementById("message").style.display = "none";
 
-function showSuccess(){
-	window.document.getElementById("Success alert").style.display = "block";
-	setTimeout(hideSuccess,5000);
+function showMessage(){
+	window.document.getElementById("message").style.display = "block";
+	setTimeout(hideMessage,5000);
 }
 
-function hideSuccess(){
-	window.document.getElementById("Success alert").style.display = "none";
+function hideMessage(){
+	window.document.getElementById("message").style.display = "none";
 }
