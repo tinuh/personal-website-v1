@@ -17,7 +17,7 @@
 }
 
 .competition-link{
-    color: #871300;
+    color: #c4c4c4;
 }
 
 .competition-link:hover{
@@ -27,4 +27,21 @@
 .competition-div{
     margin-left: 2%;
     margin-right: 2%;
+}
+
+.school-div{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.school-text{
+    color: #ffffff;
+}
+
+.toggle-collapse{
+    color: #ffffff;
+}
+
+.toggle-collapse:hover{
+    color: #ed594e;
 }

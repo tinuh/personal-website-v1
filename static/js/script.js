@@ -6,5 +6,6 @@ function showMessage(){
 }
 
 function hideMessage(){
-	window.document.getElementById("message").style.display = "none";
+	$(".alert").alert('close')
 }
+
