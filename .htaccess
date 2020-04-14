@@ -1,0 +1,11 @@
+# turn on rewrite engine
+RewriteEngine on
+
+#Checks if file exists in server, if it does not, do not change anything
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#Check for file in directory with .html extension
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+#Now to render the .html file
+RewriteRule ^(.*)$ $1.html [NC,L]
