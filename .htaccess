@@ -9,3 +9,6 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 
 #Now to render the .html file
 RewriteRule ^(.*)$ $1.html [NC,L]
+
+#Custom 404 page if page not found
+ErrorDocument 404 /404.html
