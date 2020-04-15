@@ -22,6 +22,16 @@
 
 .competition-link:hover{
     color: #ed594e;
+    text-decoration: none;
+}
+
+.school-link{
+    color: #c4c4c4;
+}
+
+.school-link:hover{
+    color: #ed594e;
+    text-decoration: none;
 }
 
 .competition-div{
@@ -44,4 +54,5 @@
 
 .toggle-collapse:hover{
     color: #ed594e;
+    text-decoration: none;
 }
