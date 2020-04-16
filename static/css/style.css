@@ -1,6 +1,13 @@
 .heading{
     color: #ffffff;
     text-align: center;
+    text-decoration: none;
+}
+
+.heading:hover{
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
 }
 
 .sub-heading{
@@ -55,4 +62,57 @@
 .toggle-collapse:hover{
     color: #ed594e;
     text-decoration: none;
+}
+
+.message-link{
+    color: #0c5460;
+}
+
+.message-link:hover{
+    color: #ed594e;
+    text-decoration: none;
+}
+
+.homework-link{
+    color: #c4c4c4;
+}
+
+.homework-link:hover{
+    color: #ed594e;
+    text-decoration: none;
+}
+
+.homework-div{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.homework-text{
+    color: #ffffff;
+}
+
+
+@media (min-width: 992px) {
+  .homework-div{
+    margin-left: 10%;
+    margin-right: 10%;
+   }
+  .video{
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+}
+
+.video-iframe{
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.video-iframe iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-self: center;
 }
