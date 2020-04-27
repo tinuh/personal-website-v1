@@ -15,7 +15,7 @@
 }
 
 .body{
-    background-color: #03827b;
+    background: linear-gradient(to right, #03827b, #5bb5af);
     margin-top: 67.5px;
 }
 
@@ -116,3 +116,17 @@
     height: 100%;
     align-self: center;
 }
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+}
+
