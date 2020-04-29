@@ -51,6 +51,66 @@
     margin-right: 2%;
 }
 
+.about-inner{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.about-outer{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.about-img{
+    width: 100%;
+}
+
+.about-text{
+    margin-top: 5%;
+}
+
+@media (min-width: 992px) {
+  .about-outer{
+    display: grid;
+    grid-gap: 2%;
+  }
+  .about-img{
+    width: 300px;
+}
+  .about-inner{
+      grid-row: 1/5;
+  }
+  .about-body{
+      grid-row: 2 / 3;
+  }
+  .about-text{
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 1425px) {
+  .about-outer {
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+  .about-text{
+    margin-top: 0px;
+  }
+}
+
+.about-text{
+    color: #ffffff;
+}
+
+.about-link{
+    color: #c4c4c4;
+}
+
+.about-link:hover{
+    color: #ed594e;
+    text-decoration: none;
+}
+
 .school-text{
     color: #ffffff;
 }
@@ -128,4 +188,34 @@
 .icon{
     width: 25px;
     height: 25px;
+}
+
+.index-link{
+    color: #00c7c1;
+}
+
+.text-link{
+    color: #c4c4c4;
+}
+
+.text-link:hover{
+    color: #ed594e;
+    text-decoration: none;
+}
+
+.index-link:hover{
+    color: #ed594e;
+    text-decoration: none;
+}
+
+.index-about{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+@media (min-width: 768px) {
+  .index-about{
+      display:none;
+  }
 }
