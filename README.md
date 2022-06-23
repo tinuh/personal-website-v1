@@ -1,2 +1,2 @@
 # Personal-Website
-This is my old website built on HTML, JS, and CSS. It is now at the link https://html.tinu.tech.
+This is the first iteration of my personal website built with HTML, CSS, and JS. It's viewable at https://v1.tinu.tech
